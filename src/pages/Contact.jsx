@@ -16,13 +16,13 @@ const Contact = () => {
               id="outlined-basic"
               label="Full Name"
               variant="outlined"
-              className="bg-transparent rounded-lg w-[50%] bg-blue-200"
+              className="rounded-lg w-[50%] bg-blue-200"
             />
             <TextField
               id="outlined-basic"
               label="Your Email"
               variant="outlined"
-              className="bg-transparent rounded-lg w-[50%] bg-blue-200"
+              className="rounded-lg w-[50%] bg-blue-200"
               
             />
             <TextField
@@ -30,7 +30,7 @@ const Contact = () => {
               label="Your Message"
               multiline
               maxRows={6}
-              className="bg-transparent rounded-lg w-[50%] bg-blue-200"
+              className="rounded-lg w-[50%] bg-blue-200"
             />
             <Button variant="contained" endIcon={<SendIcon />} className="w-[15%] hover:scale-125">
               Send
