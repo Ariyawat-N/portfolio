@@ -1,6 +1,5 @@
 import './App.css'
 import Navbar from './components/Navbar'
-import Saly from './assets/Saly-13.svg'
 import TypeWriter from './components/TypeWriter'
 import { FaGithub,FaLinkedin } from "react-icons/fa6";
 import Computer from './assets/computer-8bit-large11.webp'
@@ -15,13 +14,13 @@ function App() {
         </nav>
         <section className='flex h-[91%]'>
           {/* Left Content */}
-         <div className='w-[50%] text-center p-[150px]'>
+         <div className='w-[50%] text-center flex flex-col justify-center items-center pb-60'>
           <TypeWriter />
-          <p className='text-white mt-6 font-ligh'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum sequi dolor dolorum! Eligendi, fugiat. Esse sed ratione doloremque at. Magni reprehenderit repellat minima quibusdam omnis assumenda expedita vero dolorum at.</p>
+          <p className='text-white mt-6 font-fontTwo w-[60%] text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum sequi dolor dolorum! Eligendi, fugiat. Esse sed ratione doloremque at. Magni reprehenderit repellat minima quibusdam omnis assumenda expedita vero dolorum at.</p>
            {/* Github & Linkedin */}
          <div className='flex justify-center scale-100 text-3xl gap-5 mt-5'>
-            <a href="https://github.com/Ariyawat-N" className='text-white hover:text-cyan-300 hover:scale-150'><FaGithub/></a>
-            <a href="https://www.linkedin.com/in/ariyawat-nokyai/" className='text-white hover:text-cyan-300 hover:scale-150'><FaLinkedin/></a>
+            <a href="https://github.com/Ariyawat-N" className='text-white hover:text-cyan-300 hover:scale-150 transition ease-in-out delay-150'><FaGithub/></a>
+            <a href="https://www.linkedin.com/in/ariyawat-nokyai/" className='text-white hover:text-cyan-300 hover:scale-150 transition ease-in-out delay-150'><FaLinkedin/></a>
          </div>
          </div>
 
