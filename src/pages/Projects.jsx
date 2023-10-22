@@ -15,25 +15,25 @@ const Projects = () => {
           <div className="w-[70%] h-[80%] rounded-3xl border-2 border-cyan-500 flex flex-col items-center ">
            <div className='h-[50%] w-[100%] flex justify-evenly items-center '>
               <div className='w-[25%] h-[70%] '>
-                <a href="https://replit.com/@Ariyawat/02-find-your-hat" target="_blank"><img src={fmh} alt="find my hat" className='transition ease-in-out delay-150 h-[100%] w-[100%] object-cover rounded-3xl hover:shadow-2xl hover:shadow-blue-500 hover:scale-105'/></a>
+                <a href="https://replit.com/@Ariyawat/02-find-your-hat" target="_blank"><img src={fmh} alt="find my hat" className='transition ease-in-out delay-75 h-[100%] w-[100%] object-cover rounded-3xl hover:shadow-2xl hover:shadow-blue-500 hover:scale-105'/></a>
               </div>
               <div className='w-[25%] h-[70%]'>
-                <a href="https://colmar-exam-ariyawat.vercel.app/" target="_blank"><img src={colmar} alt="colmar" className='transition ease-in-out delay-150 h-[100%] w-[100%] object-cover rounded-3xl hover:shadow-2xl hover:shadow-blue-500 hover:scale-105'/></a>
+                <a href="https://colmar-exam-ariyawat.vercel.app/" target="_blank"><img src={colmar} alt="colmar" className='transition ease-in-out delay-75 h-[100%] w-[100%] object-cover rounded-3xl hover:shadow-2xl hover:shadow-blue-500 hover:scale-105'/></a>
               </div>
               <div className='w-[25%] h-[70%]'>
-                <a href="https://weather-app-xi-two-65.vercel.app/" target="_blank"><img src={weatherapp} alt="weatherapp" className='transition ease-in-out delay-150 h-[100%] w-[100%] object-cover rounded-3xl hover:shadow-2xl hover:shadow-blue-500 hover:scale-105'/></a>
+                <a href="https://weather-app-xi-two-65.vercel.app/" target="_blank"><img src={weatherapp} alt="weatherapp" className='transition ease-in-out delay-75 h-[100%] w-[100%] object-cover rounded-3xl hover:shadow-2xl hover:shadow-blue-500 hover:scale-105'/></a>
               </div>
            </div>
 
            <div className='h-[50%] w-[100%] flex justify-evenly items-center'>
               <div className='w-[25%] h-[70%]'>
-                <a href="https://search-filter-country-api.vercel.app/" target="_blank"><img src={countryapi} alt="countryapi" className='transition ease-in-out delay-150 h-[100%] w-[100%] object-cover rounded-3xl hover:shadow-2xl hover:shadow-blue-500 hover:scale-105'/></a>
+                <a href="https://search-filter-country-api.vercel.app/" target="_blank"><img src={countryapi} alt="countryapi" className='transition ease-in-out delay-75 h-[100%] w-[100%] object-cover rounded-3xl hover:shadow-2xl hover:shadow-blue-500 hover:scale-105'/></a>
               </div>
               <div className='w-[25%] h-[70%]'>
-                <a href="https://codesandbox.io/s/keeper-part-3-completed-forked-wl45r2?file=/src/components/CreateArea.jsx" target="_blank"><img src={keeperapp} alt="keeperapp" className='transition ease-in-out delay-150 h-[100%] w-[100%] object-cover rounded-3xl hover:shadow-2xl hover:shadow-blue-500 hover:scale-105'/></a>
+                <a href="https://codesandbox.io/s/keeper-part-3-completed-forked-wl45r2?file=/src/components/CreateArea.jsx" target="_blank"><img src={keeperapp} alt="keeperapp" className='transition ease-in-out delay-75 h-[100%] w-[100%] object-cover rounded-3xl hover:shadow-2xl hover:shadow-blue-500 hover:scale-105'/></a>
               </div>
               <div className='w-[25%] h-[70%]'>
-                <a href="https://replit.com/@Ariyawat/02-find-your-hat" target="_blank"><img src={fmh} alt="find my hat" className='transition ease-in-out delay-150 h-[100%] w-[100%] object-cover rounded-3xl hover:shadow-2xl hover:shadow-blue-500 hover:scale-105'/></a>
+                <a href="https://replit.com/@Ariyawat/02-find-your-hat" target="_blank"><img src={fmh} alt="find my hat" className='transition ease-in-out delay-75 h-[100%] w-[100%] object-cover rounded-3xl hover:shadow-2xl hover:shadow-blue-500 hover:scale-105'/></a>
               </div>
            </div>
            

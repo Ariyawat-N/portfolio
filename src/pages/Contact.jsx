@@ -3,6 +3,16 @@ import Navbar from "../components/Navbar";
 import TextField from "@mui/material/TextField";
 import  Button  from "@mui/material/Button";
 import SendIcon from '@mui/icons-material/Send';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+  palette: {
+    ochre: {
+      main: '#06b6d4',
+      white: '#ffff'
+    },
+  },
+});
 
 const Contact = () => {
   return (
@@ -35,9 +45,11 @@ const Contact = () => {
               className="rounded-lg w-[50%] bg-blue-200"
               name="message"
             />
-            <Button  type="submit" variant="contained" endIcon={<SendIcon />} className="w-[15%] transition ease-in-out delay-150 hover:scale-125">
+            <ThemeProvider theme={theme}>
+            <Button  type="submit" variant="contained" endIcon={<SendIcon />} color="ochre" className="w-[15%] hover:scale-110">
               Send
             </Button>
+            </ThemeProvider>
             </form>
           </div>
         </section>

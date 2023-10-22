@@ -19,8 +19,8 @@ function App() {
           <p className='text-white mt-6 font-fontTwo w-[60%] text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum sequi dolor dolorum! Eligendi, fugiat. Esse sed ratione doloremque at. Magni reprehenderit repellat minima quibusdam omnis assumenda expedita vero dolorum at.</p>
            {/* Github & Linkedin */}
          <div className='flex justify-center scale-100 text-3xl gap-5 mt-5'>
-            <a href="https://github.com/Ariyawat-N" className='text-white hover:text-cyan-300 hover:scale-150 transition ease-in-out delay-150'><FaGithub/></a>
-            <a href="https://www.linkedin.com/in/ariyawat-nokyai/" className='text-white hover:text-cyan-300 hover:scale-150 transition ease-in-out delay-150'><FaLinkedin/></a>
+            <a href="https://github.com/Ariyawat-N"  target='_blank' className='text-white hover:text-cyan-300 hover:scale-150 transition ease-in-out delay-75'><FaGithub/></a>
+            <a href="https://www.linkedin.com/in/ariyawat-nokyai/"  target='_blank' className='text-white hover:text-cyan-300 hover:scale-150 transition ease-in-out delay-75'><FaLinkedin/></a>
          </div>
          </div>
 
